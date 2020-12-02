@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import cv2 as cv
 
-path1 =r"C:\Users\tanma\OneDrive\Desktop\imLeft.png"
-path2 =r"C:\Users\tanma\OneDrive\Desktop\imRight.png"
+path1 =r".\imLeft.png"
+path2 =r".\imRight.png"
 imgL = cv2.imread(path1,cv2.IMREAD_GRAYSCALE) 
 imgR = cv2.imread(path2,cv2.IMREAD_GRAYSCALE)  
 
